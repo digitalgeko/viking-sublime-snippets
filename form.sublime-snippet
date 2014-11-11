@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+<form class="form" ng-submit="$1">
+	<fieldset class="fieldset">
+		$0
+	</fieldset>
+	<div class="button-holder">
+		<button type="submit" class="btn btn-primary">\${h.messages.get("save")}</button>
+		<button type="button" class="btn btn-cancel">\${h.messages.get("cancel")}</button>
+	</div>
+</form>
+]]></content>
+<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>form</tabTrigger>
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>text.html.ftl</scope>
+</snippet>

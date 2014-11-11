@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+<div ng-controller="$1Controller" ng-init="init('\${h.portletId}')">
+	$0
+</div>
+]]></content>
+<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>adiv</tabTrigger>
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>text.html.ftl</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+package models
+
+import com.google.code.morphia.annotations.Entity
+import nl.viking.model.morphia.Model
+
+@Entity
+class ${TM_FILENAME/\.groovy//g} extends Model {
+
+    $0
+
+}
+
+]]></content>
+<tabTrigger>model</tabTrigger>
+<scope>source.groovy</scope>
+</snippet>

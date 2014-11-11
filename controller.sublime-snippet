@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+package controllers
+
+import nl.viking.controllers.Controller
+import nl.viking.controllers.annotation.*
+
+class ${TM_FILENAME/\.groovy//g} extends Controller {
+
+    $0
+    
+}
+]]></content>
+<tabTrigger>controller</tabTrigger>
+<scope>source.groovy</scope>
+</snippet>

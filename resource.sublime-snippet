@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+@Resource(mode="${1:view}")
+def ${2:method}() {
+	$0
+}
+]]></content>
+<tabTrigger>resource</tabTrigger>
+<scope>source.groovy</scope>
+</snippet>

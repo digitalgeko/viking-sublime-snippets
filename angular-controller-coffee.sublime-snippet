@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+angular.module("${1}App").controller '${2}Controller', ['\$scope', '\$viking', (\$scope, \$viking) ->
+	\$scope.init = (portletId) ->
+		\$viking.populate portletId, \$scope
+
+	$0
+]
+]]></content>
+<tabTrigger>controller</tabTrigger>
+<scope>source.coffee</scope>
+</snippet>

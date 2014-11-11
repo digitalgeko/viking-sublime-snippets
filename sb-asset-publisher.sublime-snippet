@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+portlet ("101") {
+    prefs "portletSetupTitle_en_US": 	'$1s'
+    prefs "portletSetupUseCustomTitle": 	'true'
+    prefs "anyAssetType": 	'models.$1'
+    prefs "assetLinkBehavior": 	'viewInPortlet'
+}
+]]></content>
+<tabTrigger>101</tabTrigger>
+<scope>source.groovy</scope>
+</snippet>
+
+

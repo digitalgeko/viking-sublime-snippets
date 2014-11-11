@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+<div class="control-group" >
+	<div class="controls">
+		<label class="radio" for="${1/\./_/g}">
+			<input type="radio" class="field" id="${1/\./_/g}" name="$1" ng-model="$1">
+			\${h.messages.get("${1:Option1}")}
+		</label>
+		<label class="radio" for="${2/\./_/g}">
+			<input type="radio" class="field" id="${2/\./_/g}" name="$2" ng-model="$2">
+			\${h.messages.get("${2:Option2}")}
+		</label>
+	</div>
+</div>
+]]></content>
+<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>radio</tabTrigger>
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>text.html.ftl</scope>
+</snippet>

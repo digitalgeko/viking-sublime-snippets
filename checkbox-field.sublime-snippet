@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+<label class="checkbox" for="${1/\./_/g}">
+	<input type="checkbox" id="${1/\./_/g}" name="$1" ng-model="$1"> \${h.messages.get("$1")}
+</label>
+]]></content>
+<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>checkbox</tabTrigger>
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>text.html.ftl</scope>
+</snippet>

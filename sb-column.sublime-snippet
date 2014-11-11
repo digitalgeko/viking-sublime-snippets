@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+column (${1:1}) {
+	portlet "$2"
+	$0
+}
+]]></content>
+<tabTrigger>column</tabTrigger>
+<scope>source.groovy</scope>
+</snippet>
+
+

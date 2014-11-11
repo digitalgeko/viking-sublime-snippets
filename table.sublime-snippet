@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+<table class="table table-bordered table-hover table-striped">
+	<thead class="table-columns">
+		<tr>
+			<th class="table-first-header">First header</th>
+			<th class="table-last-header">Last header</th>
+		</tr>
+	</thead>
+	<tbody class="table-data">
+		<tr ng-repeat="item in items" >
+			<td class="table-cell first">{{item.name}}</td>
+			<td class="table-cell last"></td>
+		</tr>
+	</tbody>
+</table>	
+]]></content>
+<tabTrigger>table</tabTrigger>
+<scope>text.html.ftl</scope>
+</snippet>
