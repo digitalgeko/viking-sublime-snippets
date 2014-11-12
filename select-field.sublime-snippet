@@ -8,5 +8,5 @@
 </div>
 ]]></content>
 <tabTrigger>select</tabTrigger>
-<scope>text.html.ftl</scope>
+<scope>text.html</scope>
 </snippet>

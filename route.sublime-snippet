@@ -3,5 +3,5 @@
 \${route('$0')}
 ]]></content>
 	<tabTrigger>route</tabTrigger>
-	<scope>text.html.ftl</scope>
+	<scope>text.html</scope>
 </snippet>

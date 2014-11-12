@@ -16,5 +16,5 @@
 </table>	
 ]]></content>
 <tabTrigger>table</tabTrigger>
-<scope>text.html.ftl</scope>
+<scope>text.html</scope>
 </snippet>
