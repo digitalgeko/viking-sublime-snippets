@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-<div ng-controller="$1Controller" ng-init="init('\${h.portletId}')">
+<div ng-controller="$1Controller" ng-init="init('\${h.portletId}')" ng-cloak>
 	$0
 </div>
 ]]></content>

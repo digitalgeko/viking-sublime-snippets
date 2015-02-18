@@ -2,7 +2,7 @@
 	<content><![CDATA[
 angular.module("${1}App").controller('${2}Controller', ['\$scope', '\$viking', function(\$scope, \$viking) {
 	\$scope.${2:init} = function(portletId) {
-		\$viking.populate(portletId, \$scope);
+		\$viking.init(portletId, \$scope);
 	};
 
 	$0
